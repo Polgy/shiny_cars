@@ -19,7 +19,8 @@ shinyUI(fluidPage(
       checkboxInput ("ami", label="Manual Transmission", value = FALSE),
       br(), 
       submitButton("Submit"),
-      p(em("Documentation:",a("mtcars",href="index.html")))
+      p(em("Documentation:",a("Documentation",href="Index.html"))),
+      p(em("Pitch:",a("Pitch",href="mtcars_pitch.html")))
     ),
 
     # Show a plot
